@@ -55,3 +55,32 @@ a::before {
     transform:scale(1.05);
     box-shadow: 5px 5px 0 #000000;   
 }
+
+#name {
+    position: absolute;
+    background-color:#0e8bf6;
+    box-shadow: 5px 5px 0 black;
+    width: 628px;
+    height: 190px;
+    margin: 116px 722px 497px 91px;
+}
+
+.myname {
+    color: white;
+    font-family: 'Fira Code', monospace;
+    text-shadow: 4px 4px 0 #000000;
+    font-size: 40px;
+    width: 480px;
+    height: 40px;
+    line-height: 40px;
+    margin: 42px 57px 0px 181px;   
+}
+
+.myjob {
+    color: #757575;
+    font-family: 'Fira Code', monospace;
+    text-shadow: 4px 4px 0 black;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 30px 50px 50px 160px; 
+}
