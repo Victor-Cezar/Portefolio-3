@@ -6,7 +6,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #0e8bf6;
-    border-bottom: 8px solid black;
+    border-bottom: 8px solid rgb(0, 0, 0);
     padding: 10px 20px 10px 20px;
 
 }
@@ -17,11 +17,7 @@ header {
     margin-top: 10px;
 }
     
-nav {
-    text-align: right;
-}
-
-a {
+.action {
     display:inline-flex;
     align-items: center;
     color: rgb(255, 255, 255);
@@ -32,7 +28,7 @@ a {
     margin-right: 30px;
 }
 
-a::before {
+.action::before {
     content: "";
     background-color: #757575;
     width: 10px;
@@ -40,47 +36,50 @@ a::before {
     margin-right: 10px;
 }
 
-#button {
+.button {
     display: inline-block;
     background-color: #757575;
-    height: 60px;
-    line-height: 60px; /* define a ALTURA DE UMA LNHA */
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px; /* define a ALTURA DE UMA LNHA */
     padding: 18px 20px;
     margin-right: 0;
     box-shadow: 5px 5px 0 black;
     transition: transform 150ms linear;
+    font-family: 'Fira Code', monospace;
+    text-decoration: none;
+
 }
 
-#button:hover {
+.button:hover {
     transform:scale(1.05);
     box-shadow: 5px 5px 0 #000000;   
 }
 
-#name {
-    position: absolute;
+.box {
+    display: inline-block;
     background-color:#0e8bf6;
-    box-shadow: 5px 5px 0 black;
-    width: 628px;
-    height: 190px;
-    margin: 116px 722px 497px 91px;
+    box-shadow: 7px 7px 0 black;
+    text-align: center;
+    padding: 42px 44px;
+    
 }
 
-.myname {
+.box h1 {
     color: white;
-    font-family: 'Fira Code', monospace;
+    font-family: 'Press Start 2P', cursive;
     text-shadow: 4px 4px 0 #000000;
     font-size: 40px;
-    width: 480px;
-    height: 40px;
-    line-height: 40px;
-    margin: 42px 57px 0px 181px;   
+    margin-bottom: 28px;
+
 }
 
-.myjob {
+.box h2 {
     color: #757575;
-    font-family: 'Fira Code', monospace;
+    font-family: 'Press Start 2P', cursive;
     text-shadow: 4px 4px 0 black;
     font-size: 30px;
-    line-height: 30px;
-    margin: 30px 50px 50px 160px; 
-}
+  
+    }
+
