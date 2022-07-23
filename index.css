@@ -83,3 +83,11 @@ header {
   
     }
 
+.banner {
+    background-image: url(/portefolio-3/img/helloworld.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: 100%;
+    border-bottom: 10px solid black; /*  border pode ser aplicdo para todos os lados e para um lado específico */
+    }
+
