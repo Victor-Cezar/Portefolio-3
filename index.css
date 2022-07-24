@@ -62,8 +62,7 @@ header {
     background-color:#0e8bf6;
     box-shadow: 7px 7px 0 black;
     text-align: center;
-    padding: 42px 44px;
-    
+    padding: 42px 44px;   
 }
 
 .box h1 {
@@ -72,7 +71,6 @@ header {
     text-shadow: 4px 4px 0 #000000;
     font-size: 40px;
     margin-bottom: 28px;
-
 }
 
 .box h2 {
@@ -80,14 +78,34 @@ header {
     font-family: 'Press Start 2P', cursive;
     text-shadow: 4px 4px 0 black;
     font-size: 30px;
-  
-    }
+}
 
 .banner {
-    background-image: url(/portefolio-3/img/helloworld.jpg);
+    background-image: url(/portefolio-3/img/helloworld.jpg); /* trocar imagem */
     background-repeat: no-repeat;
     height: 800px;
     background-size: 100%;
     border-bottom: 10px solid black; /*  border pode ser aplicdo para todos os lados e para um lado específico */
-    }
+    padding-top: 120px;
+    padding-left: 160px;
+   
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction:column;
+    width: 630px;
+   
+}
+
+.banner .box {
+    margin-bottom: 38px;
+ 
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
+    
+}
 
