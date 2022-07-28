@@ -6,13 +6,12 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #0e8bf6;
-    border-bottom: 8px solid rgb(0, 0, 0);
+    border-bottom: 8px solid rgb(255, 255, 255);
     padding: 10px 20px 10px 20px;
-
 }
 .logo {
-    width: 80px;
-    height: 80px;
+    width: 82px;
+    height: 82px;
     margin-left: 30px;
     margin-top: 10px;
 }
@@ -45,7 +44,7 @@ header {
     line-height: 40px; /* define a ALTURA DE UMA LNHA */
     padding: 18px 20px;
     margin-right: 0;
-    box-shadow: 5px 5px 0 black;
+    box-shadow: 5px 5px 0 rgb(54, 49, 49);
     transition: transform 150ms linear;
     font-family: 'Fira Code', monospace;
     text-decoration: none;
@@ -54,13 +53,13 @@ header {
 
 .button:hover {
     transform:scale(1.05);
-    box-shadow: 5px 5px 0 #000000;   
+    box-shadow: 5px 5px 0 rgb(54, 49, 49);   
 }
 
 .box {
     display: inline-block;
     background-color:#0e8bf6;
-    box-shadow: 7px 7px 0 black;
+    box-shadow: 7px 7px 0 rgb(54, 49, 49);
     text-align: center;
     padding: 42px 44px;   
 }
@@ -81,11 +80,11 @@ header {
 }
 
 .banner {
-    background-image: url(/portefolio-3/img/giphy.gif); /* trocar imagem */
+    background-image: url(/portefolio-3/img/error.gif); /* trocar imagem */
     background-repeat: no-repeat;
     height: 800px;
     background-size: 100%;
-    border-bottom: 10px solid black; /*  border pode ser aplicdo para todos os lados e para um lado específico */
+    border-bottom: 10px solid rgb(255, 255, 255); /*  border pode ser aplicdo para todos os lados e para um lado específico */
     padding-top: 120px;
     padding-left: 160px;
    
@@ -109,13 +108,19 @@ header {
     
 }
 
+
 .bannertwo {
     background-color: #0e8bf6;
     font-family: 'Press Start 2P', cursive;
     border-bottom: 10px solid black;
+}
+
+.wrapperCat{
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 50px;
-    padding-bottom: 100px;
-   
+    padding-bottom: 100px; 
+    max-width:auto;
 }
 
 .bannertwo .titleskills {
@@ -156,11 +161,11 @@ progress {
 
 progress-bar::-webkit-progress-bar,
 .progress-bar::-webkit-progress-value {
-    background-color: #00ff62;
+    background-color: #00d841;
 }
 
 .progress-bar::-moz-progress-bar {
-    background-color: #00ff62;
+    background-color: #00d841;
     width: 70%;
 }
 /* PROGRESS-BAR - FIM*/
