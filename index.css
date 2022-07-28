@@ -81,7 +81,7 @@ header {
 }
 
 .banner {
-    background-image: url(/portefolio-3/img/helloworld.jpg); /* trocar imagem */
+    background-image: url(/portefolio-3/img/giphy.gif); /* trocar imagem */
     background-repeat: no-repeat;
     height: 800px;
     background-size: 100%;
@@ -129,9 +129,7 @@ header {
     margin-left: 239px;
     margin-top: 110px;
     color: white;  
-}
-
-.catalogo .icon {
+    align-items: center;
     margin-right: 25px;
 }
 
@@ -167,7 +165,17 @@ progress-bar::-webkit-progress-bar,
 }
 /* PROGRESS-BAR - FIM*/
 
-.logolinguagem{
+.logolinguagem, .linguagem{
     font-size: 25px;
 }
 
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon{
+    padding-right: 30px;
+    
+}
