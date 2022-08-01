@@ -6,7 +6,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #0e8bf6;
-    border-bottom: 8px solid rgb(255, 255, 255);
+    border-bottom: 8px solid rgb(0, 0, 0);
     padding: 10px 20px 10px 20px;
 }
 .logo {
@@ -85,7 +85,7 @@ header {
     height: 800px;
     background-size: 100%;
     border-bottom: 10px solid rgb(255, 255, 255); /*  border pode ser aplicdo para todos os lados e para um lado específico */
-    padding-top: 120px;
+    padding-top: 180px;
     padding-left: 160px;
    
 }
@@ -112,15 +112,17 @@ header {
 .bannertwo {
     background-color: #0e8bf6;
     font-family: 'Press Start 2P', cursive;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid rgb(255, 255, 255);
 }
 
 .wrapperCat{
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
-    padding-bottom: 100px; 
+    padding-top: 30px;
+    padding-bottom: 40px;
     max-width:auto;
+   
+
 }
 
 .bannertwo .titleskills {
@@ -131,11 +133,11 @@ header {
 
 .catalogo {
     display: flex;
-    margin-left: 239px;
-    margin-top: 110px;
+    margin-left: 230px;
+    margin-top: 40px;
     color: white;  
     align-items: center;
-    margin-right: 25px;
+    
 }
 
 /* PROGRESS-BAR */
@@ -177,10 +179,49 @@ progress-bar::-webkit-progress-bar,
 .right{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    line-height: 40px;
 }
 
 .icon{
     padding-right: 30px;
-    
+    width: 90px;
+    height: 80px; 
+}
+
+
+.titleprojeto{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    padding-top: 45px;
+    font-size: 40px;
+}
+
+.projeto {
+    background-color: #000000;
+    font-family: 'Press Start 2P', cursive;
+    border-bottom: 10px solid rgb(255, 255, 255);
+}
+
+.imgError{
+    margin-left: 530px;
+    padding-top: 62px;
+}
+
+.titlesobre{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(0, 0, 0);
+    padding-top: 45px;
+    font-size: 40px;
+}
+
+.titlesobre{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(255, 255, 255);
+    padding-top: 45px;
+    font-size: 40px;
+    background-color: #0e8bf6;
 }
