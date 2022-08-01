@@ -204,9 +204,10 @@ progress-bar::-webkit-progress-bar,
     border-bottom: 10px solid rgb(255, 255, 255);
 }
 
-.imgError{
-    margin-left: 530px;
-    padding-top: 62px;
+.secondCatalogo{
+    display: flex;
+    justify-content: center;
+   
 }
 
 .titlesobre{
@@ -224,4 +225,20 @@ progress-bar::-webkit-progress-bar,
     padding-top: 45px;
     font-size: 40px;
     background-color: #0e8bf6;
+}
+
+.textSobre{
+    color: rgb(12, 12, 12);
+    font-family: 'Fira Code', monospace;
+    line-height: 40px;
+    font-size: 25px;
+    margin: 80px;
+    width: auto;
+    height: 312px;
+  
+}
+
+.about {
+    background-color: #0e8bf6;
+    border-bottom: 10px solid black;
 }
