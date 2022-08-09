@@ -300,6 +300,15 @@ progress-bar::-webkit-progress-bar,
     transform:scale(1.05);
     box-shadow: 3px 3px 0 rgb(0, 0, 0);   
 }
+
+.label {
+    color: white;
+    font-family: 'Fira Code', monospace;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+
+}
 footer {
     display: flex;
     justify-content: center;
