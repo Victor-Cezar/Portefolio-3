@@ -93,19 +93,16 @@ header {
 .banner .wrapper {
     display: flex;
     flex-direction:column;
-    width: 630px;
-   
+    width: 630px; 
 }
 
 .banner .box {
     margin-bottom: 38px;
- 
 }
 
 .banner .navigation {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
 }
 
 
@@ -117,12 +114,10 @@ header {
 
 .wrapperCat{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     padding-top: 30px;
     padding-bottom: 40px;
     max-width:auto;
-   
-
 }
 
 .bannertwo .titleskills {
@@ -132,12 +127,11 @@ header {
 }
 
 .catalogo {
-    display: flex;
+    display: inline-flex;
+    align-items: center;
     margin-left: 230px;
     margin-top: 40px;
-    color: white;  
-    align-items: center;
-    
+    color: white;   
 }
 
 /* PROGRESS-BAR */
@@ -244,66 +238,80 @@ progress-bar::-webkit-progress-bar,
     border-bottom: 10px solid black;
 }
 
-.buttonArrowD, .buttonArrowE {
-    box-shadow: 5px 5px 0px #000000;
-    width: 50px;
-    height: 50px;
-    background-color: #ffffff;
-    cursor: pointer;
-}
 
-.buttonArrowE::before {
-    content: '';
-    display: block;
-    box-sizing: border-box;
-    width: 15px;
-    height: 15px;
-    border: 15px solid transparent;
-    border-left:28px solid rgb(0, 0, 0);
-    transform: rotate(180deg) translateX(9px);
-}
-
-.buttonArrowD::before {
-    content: '';
-    display: block;
-    box-sizing: border-box;
-    width: 15px;
-    height: 15px;
-    border: 15px solid transparent;
-    border-left:28px solid rgb(0, 0, 0);
-    transform: rotate(180deg) translateX(9px);
-    transform: translateX(10px);
+.allFigures {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .figureTitle {
-    display: flex;
-    justify-content: center;
     font-family: 'Press Start 2P', cursive;
-    margin-top: 80px;  
+    margin-top: 80px;
+    font-size: 25px; 
 }
 
 .figureText{
-    display: flex;
-    justify-content: center;
     font-family: 'Press Start 2P', cursive;
-    margin-top: 10px;
-    
-    
+    margin-top: 25px;  
+    font-size: 20px; 
 }
 
 .figureLogo{
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    align-items: center;   
 }
 
 .gatinho {
-    border: 3px solid black;
-    width: 250px;
-    height:250px;
+    border-radius: 10px;
+    border: black 3px solid;
+    margin-top: 40px;
+    width: 300px;
+    height:300px;
 }
- 
+
+.contato {
+    background-color: #757575;
+}
+
+.titleContato {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 45px;
+}
 
 
+.buttonEnviar {
+    position: relative;
+    padding: 10px;
+    width: 1360px;
+    height: 60px;
+    align-items: center;
+    background-color: #0e8bf6;
+    color: white;
+    font-size: 30px;
+    box-shadow: 3px 3px 0 rgb(0, 0, 0);
+    font-family: 'Fira Code', monospace;
+}
 
+.buttonEnviar:hover {
+    transform:scale(1.05);
+    box-shadow: 3px 3px 0 rgb(0, 0, 0);   
+}
+footer {
+    display: flex;
+    justify-content: center;
+
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+footer a {
+    margin-right: 20px;
+    margin-left: 20px;
+}
